@@ -17,12 +17,12 @@
 .title {
     font-family: 'Roboto', sans-serif; !important;
     font-weight: 900;
-    font-size: 1.2em;
+    font-size: 1em;
     color: rgb(70,140,140) ;
 }
 
 body {
-    margin: auto;
+    margin: 0;
     font-family: "Merriweather",serif;
     font-size: 1rem;
     font-weight: 400;
@@ -34,11 +34,27 @@ body {
 }
 
 .row {
+    margin: auto;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     padding-left: 12px;
     padding-right: 12px;
     width: 100%;
     background-color: #fff;
+    align-items: center;
 }
 
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+    margin-top: -6px;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+}
+
+.subtitel {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
