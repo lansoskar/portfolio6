@@ -75,6 +75,15 @@ h2 {
     max-width: 500px;
 }
 
+.text {
+    font-family: Merriweather, serif;
+    font-size: 3vh;
+    font-weight: 300;
+    letter-spacing: 1px;
+    width: 95%;
+    max-width: 500px;
+}
+
 .greyNote {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -90,4 +99,12 @@ h2 {
     width: 93%;
     max-width: 500px;
     height: auto;
+}
+
+#priceDiv {
+    display: flex;
+    margin-bottom: 30px;
+    width: 90%;
+    max-width: 600px;
+    background-color: #DDEBEB;
 }
