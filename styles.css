@@ -31,6 +31,7 @@ body {
     text-align: left;
     background-color: #ececec;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .row {
@@ -55,6 +56,7 @@ h1 {
 
 .subtitel {
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 1px;
+    max-width: 93%;
 }
