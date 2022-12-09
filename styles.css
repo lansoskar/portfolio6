@@ -104,7 +104,12 @@ h2 {
 #priceDiv {
     display: flex;
     margin-bottom: 30px;
-    width: 90%;
+    width: 93%;
+    height: auto;
     max-width: 600px;
     background-color: #DDEBEB;
+}
+
+#priceChart {
+    font-family: 'Arial', sans-serif;
 }
