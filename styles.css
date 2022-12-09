@@ -43,13 +43,22 @@ body {
     padding-right: 12px;
     width: 100%;
     background-color: #fff;
+    text-align: left;
     align-items: center;
 }
 
 h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.4em;
+    font-size: 1.6em;
     margin-top: -6px;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+
     font-weight: bolder;
     letter-spacing: 0.5px;
 }
@@ -59,4 +68,19 @@ h1 {
     font-weight: 400;
     letter-spacing: 1px;
     max-width: 93%;
+}
+
+.greyNote {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    max-width: 93%;
+    color: #3E5959;
+    font-size: .7rem;
+}
+
+.doorImage {
+    margin: 0;
+    display: block;
+    max-width: 93%;
+    height: auto;
 }
