@@ -35,12 +35,18 @@ new Chart(xyz, {
                 }
             }],
             y: {
+                grace: 10,
+                display: true,
+                grid: {
+                    display: true
+                }
+
+            },
+            x: {
+                display: true,
                 grid: {
                     display: false
                 }
-            },
-            x: {
-                display: true
             }
         },
         plugins: {
