@@ -61,3 +61,12 @@ new Chart(xyz, {
         }
     }
 });
+
+window.onscroll = function() {scrollBar()};
+
+function scrollBar() {
+    let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    let scrolled = (winScroll / height) * 100;
+    document.querySelector('#myBar').style.width = scrolled + '%';
+}
