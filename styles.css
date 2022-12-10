@@ -63,7 +63,7 @@ h2 {
     font-size: 4vh;
     font-weight: bolder;
     letter-spacing: 1px;
-    max-width: 95%;
+    max-width: 500px;
 }
 
 .subtitel {
@@ -103,13 +103,17 @@ h2 {
 
 #priceDiv {
     display: flex;
-    margin-bottom: 30px;
+    margin: 0;
     width: 93%;
-    height: auto;
     max-width: 600px;
+    max-height: 400px;
     background-color: #DDEBEB;
 }
 
 #priceChart {
     font-family: 'Arial', sans-serif;
+    margin: 0;
+    width: 93%;
+    max-height: 400px;
+    max-width: 600px;
 }

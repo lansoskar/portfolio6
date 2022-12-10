@@ -21,6 +21,7 @@ new Chart(xyz, {
 
     },
     options: {
+        maintainAspectRatio: false,
         elements: {
             point: {
                 radius: 0
