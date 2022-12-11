@@ -15,6 +15,8 @@
 }
 
 
+
+
 .title {
     font-family: 'Roboto', sans-serif; !important;
     font-weight: 900;
@@ -123,8 +125,9 @@ h2 {
 }
 
 .logo {
-    width: 100px;
-    height: 70px;
+    margin: auto;
+    width: 75px;
+    height: 45px;
 }
 
 .header {
@@ -133,17 +136,19 @@ h2 {
     z-index: 1;
     width: 100%;
     background-color: #fff;
-    height: 80px;
+    height: 48px;
 }
 
 .progress-container {
+    opacity: 100%;
+    margin-top: -5px;
     width: 100%;
-    height: 8px;
+    height: 5px;
     background: #ececec;
 }
 
 .progress-bar {
-    height: 8px;
+    height: 5px;
     background: #468C8CFF;
     width: 0%;
 }
