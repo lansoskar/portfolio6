@@ -45,7 +45,7 @@ body {
     padding-left: 12px;
     padding-right: 12px;
     width: 100%;
-    max-width: 600px;
+    max-width: 100%;
     background-color: #fff;
     text-align: left;
     align-items: center;
