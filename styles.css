@@ -17,7 +17,6 @@
 
 .title {
     font-family: 'Roboto', sans-serif;
-!important;
     font-weight: 900;
     font-size: 4vh;
     margin-top: 100px;
@@ -44,10 +43,10 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
     width: 100%;
-    max-width: 100%;
+    max-width: 1440px;
     background-color: #fff;
 
 }
@@ -81,48 +80,44 @@ h2 {
 }
 
 .text {
-    font-family: Merriweather, serif;
+    font-family: 'Merriweather', serif;
     font-size: 3vh;
     font-weight: lighter;
     letter-spacing: 1px;
     width: 95%;
-    max-width: 95%;
+    max-width: 1440px;
 }
 
 .greyNote {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    max-width: 93%;
+    max-width: 1440px;
     color: #3E5959;
-    font-size: 2vh
+    font-size: 1vh
 }
 
 .doorImage {
     margin: 0;
     display: flex;
+    align-items: center;
     justify-content: center;
     width: 93%;
     max-width: 1440px;
-    height: auto;
+
 }
 
 #priceDiv {
     display: flex;
-    margin: 0;
-    width: 93%;
-    height: 100%;
-    max-width: 700px;
-    max-height: 700px;
+    margin: 0 auto;
     background-color: #DDEBEB;
 }
 
 #priceChart {
     font-family: 'Arial', sans-serif;
-    margin: 0;
-    width: 93%;
+    margin: 0 auto;
+    width: 90%;
     height: 100%;
-    max-height: 700px;
-    max-width: 700px;
+    max-width: 1440px;
 }
 
 .logo {
