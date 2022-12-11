@@ -26,6 +26,9 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 0;
     font-family: "Merriweather",serif;
     font-size: 3vh;
@@ -42,8 +45,8 @@ body {
     margin: auto;
     display: flex;
     flex-direction: column;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 100%;
     max-width: 100%;
     background-color: #fff;
@@ -57,7 +60,7 @@ h1 {
     margin-top: -6px;
     font-weight: bolder;
     letter-spacing: 0.5px;
-    max-width: 500px;
+    max-width: 95%;
 }
 
 h2 {
@@ -67,7 +70,7 @@ h2 {
     font-size: 4vh;
     font-weight: bolder;
     letter-spacing: 1px;
-    max-width: 500px;
+    max-width: 95%;
 }
 
 .subtitel {
@@ -76,16 +79,16 @@ h2 {
     font-weight: 400;
     letter-spacing: 1px;
     width: 95%;
-    max-width: 500px;
+    max-width: 95%;
 }
 
 .text {
     font-family: Merriweather, serif;
     font-size: 3vh;
-    font-weight: 300;
+    font-weight: lighter;
     letter-spacing: 1px;
     width: 95%;
-    max-width: 500px;
+    max-width: 95%;
 }
 
 .greyNote {
@@ -101,7 +104,7 @@ h2 {
     display: flex;
     justify-content: center;
     width: 93%;
-    max-width: 500px;
+    max-width: 93%;
     height: auto;
 }
 
@@ -136,14 +139,14 @@ h2 {
     z-index: 1;
     width: 100%;
     background-color: #fff;
-    height: 48px;
+    height: 10%;
 }
 
 .progress-container {
     opacity: 100%;
-    margin-top: -5px;
+    margin-top: -1px;
     width: 100%;
-    height: 5px;
+    height: 5%;
     background: #ececec;
 }
 
