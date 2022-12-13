@@ -155,3 +155,22 @@ h2 {
     background: #468C8CFF;
     width: 0%;
 }
+
+.kindergartenImage {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1440px;
+    margin-bottom: 20px;
+}
+
+.nurseryImage {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1440px;
+}
