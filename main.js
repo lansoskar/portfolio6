@@ -7,13 +7,13 @@ new Chart(xyz, {
         datasets: [{
             label: 'Region Hovedstaden',
             data: [80.1, 84.4, 91.6, 96.3, 101.3, 106.9, 110.1, 112.5, 134.1, 141.1],
-            borderWidth: 2,
+            borderWidth: 5,
             borderColor: '#65a4a7',
             backgroundColor: '#65a4a7'
         }, {
             label: 'Region Sjælland',
             data: [76.5, 78.2, 84.3, 86.0, 92.1, 96.2, 98.1, 100.2, 114.8, 117.3],
-            borderWidth: 2,
+            borderWidth: 5,
             borderColor: '#add8ce',
             backgroundColor: '#add8ce'
         }],
@@ -31,7 +31,7 @@ new Chart(xyz, {
         scales: {
             xAxes: [{
                 ticks: {
-                    autoSkip: false
+                    autoSkip: false,
                 }
             }],
             y: {
@@ -39,13 +39,17 @@ new Chart(xyz, {
                 display: true,
                 grid: {
                     display: true
-                }
+                },
+
 
             },
             x: {
                 display: true,
                 grid: {
                     display: false
+                },
+                ticks: {
+                    size: 40
                 }
             }
         },
