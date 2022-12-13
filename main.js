@@ -1,5 +1,8 @@
 const xyz = document.querySelector('#priceChart')
 
+Chart.defaults.font.size = 30;
+Chart.defaults.font.family = 'Kumbh Sans';
+
 new Chart(xyz, {
     type: 'line',
     data: {
@@ -7,13 +10,13 @@ new Chart(xyz, {
         datasets: [{
             label: 'Region Hovedstaden',
             data: [80.1, 84.4, 91.6, 96.3, 101.3, 106.9, 110.1, 112.5, 134.1, 141.1],
-            borderWidth: 5,
+            borderWidth: 8,
             borderColor: '#65a4a7',
             backgroundColor: '#65a4a7'
         }, {
             label: 'Region Sjælland',
             data: [76.5, 78.2, 84.3, 86.0, 92.1, 96.2, 98.1, 100.2, 114.8, 117.3],
-            borderWidth: 5,
+            borderWidth: 8,
             borderColor: '#add8ce',
             backgroundColor: '#add8ce'
         }],
@@ -38,7 +41,7 @@ new Chart(xyz, {
                 grace: 10,
                 display: true,
                 grid: {
-                    display: true
+                    display: false
                 },
 
 
@@ -56,7 +59,8 @@ new Chart(xyz, {
         plugins: {
             title: {
                 display: true,
-                text: 'Prisindeks for enfamiliehuse siden 2013'
+                text: 'Prisindeks for enfamiliehuse siden 2013',
+                letterSpacing: true
             },
             legend: {
                 display: true,
@@ -65,7 +69,7 @@ new Chart(xyz, {
         }
     }
 });
-
+//
 window.onscroll = function() {scrollBar()};
 
 function scrollBar() {
