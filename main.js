@@ -1,7 +1,10 @@
 const xyz = document.querySelector('#priceChart')
 
-Chart.defaults.font.size = 30;
+Chart.defaults.font.size = 35;
 Chart.defaults.font.family = 'Kumbh Sans';
+
+
+
 
 new Chart(xyz, {
     type: 'line',
@@ -41,7 +44,9 @@ new Chart(xyz, {
                 grace: 10,
                 display: true,
                 grid: {
-                    display: false
+                    display: true,
+                    color: ['#DDEBEB','#DDEBEB','rgba(210,56,56,0.44)','#DDEBEB'],
+                    lineWidth: 3
                 },
 
 
