@@ -70,7 +70,8 @@ new Chart(xyz, {
             legend: {
                 display: true,
                 position: 'bottom'
-            }
+            },
+            devicePixelRatio: true
         }
     }
 });
