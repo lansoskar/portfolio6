@@ -69,7 +69,7 @@ new Chart(xyz, {
         }
     }
 });
-
+//
 window.onscroll = function() {scrollBar()};
 
 function scrollBar() {
