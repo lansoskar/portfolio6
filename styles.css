@@ -173,3 +173,11 @@ h2 {
     width: 100%;
     max-width: 1440px;
 }
+
+.imageText {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 300;
+    max-width: 1440px;
+    color: rgb(108, 107, 107);
+    font-size: 1.5vh
+}
