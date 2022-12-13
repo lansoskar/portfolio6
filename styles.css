@@ -16,7 +16,7 @@
 
 
 .title {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
     font-weight: 900;
     font-size: 4vh;
     margin-top: 100px;
@@ -53,7 +53,7 @@ body {
 }
 
 h1 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
     font-size: 6vh;
     margin-top: -6px;
     font-weight: bolder;
@@ -64,7 +64,7 @@ h1 {
 h2 {
     margin-top: 12px;
     margin-right: 5px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
     font-size: 4vh;
     font-weight: bolder;
     letter-spacing: 1px;
@@ -72,7 +72,7 @@ h2 {
 }
 
 .subtitel {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
     font-size: 3vh;
     font-weight: 400;
     letter-spacing: 1px;
@@ -91,11 +91,11 @@ h2 {
 }
 
 .greyNote {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
     font-weight: 300;
     max-width: 1440px;
-    color: #3E5959;
-    font-size: 1vh
+    color: rgba(203, 203, 203, 0.45);
+    font-size: 1.5vh
 }
 
 .doorImage {
@@ -117,7 +117,7 @@ h2 {
 }
 
 #priceChart {
-    font-family: 'Arial', sans-serif;
+
     margin: 0 auto;
     width: 90%;
     height: 100%;
@@ -128,7 +128,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
     font-size: 32px;
     font-weight: bolder;
     letter-spacing: 1px;
