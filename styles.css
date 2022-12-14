@@ -185,14 +185,17 @@ h2 {
 }
 
 .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgb(238, 92, 71);
-    font-family: 'Merriweather', serif;
-    margin-top: -15px;
+    font-family: 'Kumbh Sans', serif;
+   margin-bottom: 20px;
+    color: #fff;
+    padding: 0 15px;
     font-size: 2vh;
-    font-weight: lighter;
-    letter-spacing: 1px;
-    width: 100%;
-    max-width: 1440px;
-    text-align: left;
+    font-weight: 400;
+    width: 55%;
+
     cursor:pointer;
 }
