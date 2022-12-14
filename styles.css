@@ -196,6 +196,6 @@ h2 {
     font-size: 2vh;
     font-weight: 400;
     width: 55%;
-
-    cursor:pointer;
+    line-height: 1.4;
+    border: 1px solid transparent;
 }
