@@ -183,3 +183,16 @@ h2 {
     color: rgb(108, 107, 107);
     font-size: 1.5vh
 }
+
+#buttons {
+    background-color: rgb(238, 92, 71);
+    font-family: 'Merriweather', serif;
+    margin-top: -15px;
+    font-size: 2vh;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    width: 100%;
+    max-width: 1440px;
+    text-align: left;
+    cursor:pointer;
+}

@@ -84,3 +84,8 @@ function scrollBar() {
     let scrolled = (winScroll / height) * 100;
     document.querySelector('#myBar').style.width = scrolled + '%';
 }
+
+function goToBolius() {
+    console.log("works")
+    window.location='https://www.bolius.dk';
+}
